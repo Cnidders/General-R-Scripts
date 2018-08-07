@@ -1,2 +1,2 @@
 # General-R-Scripts
-Basic scripts
+Basic, reusable scripts
