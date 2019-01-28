@@ -1,6 +1,6 @@
-#######################################
-# Update all packages after R upgrade #
-#######################################
+######################################
+# Update all packages after R update #
+######################################
 
 #Get currently installed packages
 package_df <- as.data.frame(installed.packages("/home/c.stienen/R/x86_64-redhat-linux-gnu-library/3.4/"))
