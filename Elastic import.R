@@ -2,7 +2,7 @@
 #   Elastic Import   #
 ######################
 ## To be defined: 
-# charDate = The indexed to be queried
+# charDate = The indexes to be queried
 # outputFields = The fields you would like as output
 # query = The Elastic query (in Lucene query syntax format)
 
