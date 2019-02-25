@@ -7,4 +7,4 @@ package_df <- as.data.frame(installed.packages("/home/c.stienen/R/x86_64-redhat-
 package_list <- as.character(package_df$Package)
 
 #Re-install Install packages
-install.packages(package_list)
+system.time(install.packages(package_list))
