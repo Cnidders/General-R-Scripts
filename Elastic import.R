@@ -62,7 +62,7 @@ source("/home/c.stienen/Info/Elastic Connection.R")
       #melt(df)
       listofdfs[[i]] <- dfES
     }
-    print("Importing data: done!")
+    print("Importing Elastic Search data: done!")
     return(listofdfs)
     close(pb)
   }

@@ -111,7 +111,7 @@ source("/home/c.stienen/Info/Elastic Connection.R")
       setTxtProgressBar(pb,i)
       listofdfs[[i]] <- as.list(dfES)
     }
-    print("Importing data: done!")
+    print("Importing Elastic Search data: done!")
     return(listofdfs)
     close(pb)
   }
